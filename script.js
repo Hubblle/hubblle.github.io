@@ -30,15 +30,23 @@ function phrase(n) {
     let randint = Math.floor(Math.random() * max_1[level_input-1]);
     ph += content[level_input]["1"][randint]+" ";
 
+    last_int = -1
+
     for(let i=0; i <= n; i++) {
 
+        do{
+        randint = Math.floor(Math.random() * max_mid[level_input-1]);
+        }
+        while(randint==last_int)
+
+        last_int = randint
+
         if(i++ == n){
-            randint = Math.floor(Math.random() * max_mid[level_input-1]);
+            
             ph += content[level_input]["mid"][randint]+".";
             break;
         }
 
-        randint = Math.floor(Math.random() * max_mid[level_input-1]);
         ph += content[level_input]["mid"][randint].charAt(0).toUpperCase()+content[level_input]["mid"][randint].slice(1)+", ";
 
     }
