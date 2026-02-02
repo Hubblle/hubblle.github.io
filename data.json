@@ -20,20 +20,36 @@
     },
     "2":{
         "1":[
-            "test 2"
+            "Un trimestre correct.",
+            "Un trimestre qui témoigne de votre travail.",
+            "Bon trimestre.",
+            "Un ensemble coherent."
 
         ],
         "mid":[
-            "test 2 mid"
+            "attention néamoins au manque de rigueur",
+            "votre serieux est présent mais votre attention en classe tend parfois à manquer",
+            "essayez de mettre de plus grands efforts dans vos révisions",
+            "vous avez des capacités qui ne sont pas exploitées à leur plein potentiel",
+            "vous pouvez encore mieux faire"
         ]
     },
     "1":{
         "1":[
-            "test 1"
+            "Nul",
+            "Un trimestre qui manque clairement de serieux.",
+            "Le bilan est clairement mauvais.",
+            "NUL!!!!",
+            "Aucun effort n'est fourni."
+
 
         ],
         "mid":[
-            "test mid 1"
+            "on ne remarquerait même pas votre absence aux cours",
+            "vous dérangez la classe plus que le bruit de l'aspirateur quand le concierge passe le ménage dans le couloir",
+            "vous êtes dispensé de venir au prochains cours",
+            "reprenez vous en mains immédiatement, même si il n'y a plus aucun espoir"
+
         ]
     }
 }
